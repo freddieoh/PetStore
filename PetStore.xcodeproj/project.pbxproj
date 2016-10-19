@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F38ABEF1DB80A0F000BB41E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38ABEE1DB80A0F000BB41E /* main.m */; };
+		1F38ABF21DB80A0F000BB41E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38ABF11DB80A0F000BB41E /* AppDelegate.m */; };
+		1F38ABF51DB80A0F000BB41E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38ABF41DB80A0F000BB41E /* ViewController.m */; };
+		1F38ABF81DB80A0F000BB41E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F38ABF61DB80A0F000BB41E /* Main.storyboard */; };
+		1F38ABFA1DB80A0F000BB41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F38ABF91DB80A0F000BB41E /* Assets.xcassets */; };
+		1F38ABFD1DB80A0F000BB41E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F38ABFB1DB80A0F000BB41E /* LaunchScreen.storyboard */; };
+		1F38AC051DB80C3B000BB41E /* MyCustomsControlsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F38AC041DB80C3B000BB41E /* MyCustomsControlsFramework.framework */; };
+		1F38AC061DB80C7B000BB41E /* MyCustomsControlsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F38AC041DB80C3B000BB41E /* MyCustomsControlsFramework.framework */; };
+		1F38AC071DB80C7B000BB41E /* MyCustomsControlsFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F38AC041DB80C3B000BB41E /* MyCustomsControlsFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFC1EECE0969B9A52C010D48 /* libPods-PetStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D8ABBF8810049938F08E8 /* libPods-PetStore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F38AC081DB80C7B000BB41E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F38AC071DB80C7B000BB41E /* MyCustomsControlsFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12B868EB84F661097E26537D /* Pods-PetStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetStore/Pods-PetStore.debug.xcconfig"; sourceTree = "<group>"; };
+		1F38ABEA1DB80A0F000BB41E /* PetStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F38ABEE1DB80A0F000BB41E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F38ABF01DB80A0F000BB41E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F38ABF11DB80A0F000BB41E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F38ABF31DB80A0F000BB41E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F38ABF41DB80A0F000BB41E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F38ABF71DB80A0F000BB41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F38ABF91DB80A0F000BB41E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F38ABFC1DB80A0F000BB41E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F38ABFE1DB80A0F000BB41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F38AC041DB80C3B000BB41E /* MyCustomsControlsFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyCustomsControlsFramework.framework; sourceTree = "<group>"; };
+		4554E9496FD859A78C9FD071 /* Pods-PetStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetStore/Pods-PetStore.release.xcconfig"; sourceTree = "<group>"; };
+		6E4D8ABBF8810049938F08E8 /* libPods-PetStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F38ABE71DB80A0F000BB41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38AC061DB80C7B000BB41E /* MyCustomsControlsFramework.framework in Frameworks */,
+				1F38AC051DB80C3B000BB41E /* MyCustomsControlsFramework.framework in Frameworks */,
+				BFC1EECE0969B9A52C010D48 /* libPods-PetStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F38ABE11DB80A0F000BB41E = {
+			isa = PBXGroup;
+			children = (
+				1F38AC041DB80C3B000BB41E /* MyCustomsControlsFramework.framework */,
+				1F38ABEC1DB80A0F000BB41E /* PetStore */,
+				1F38ABEB1DB80A0F000BB41E /* Products */,
+				26D864A60E00F0A32EA74EF3 /* Pods */,
+				80BB391958C55D000BDC9B83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F38ABEB1DB80A0F000BB41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F38ABEA1DB80A0F000BB41E /* PetStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F38ABEC1DB80A0F000BB41E /* PetStore */ = {
+			isa = PBXGroup;
+			children = (
+				1F38ABF01DB80A0F000BB41E /* AppDelegate.h */,
+				1F38ABF11DB80A0F000BB41E /* AppDelegate.m */,
+				1F38ABF31DB80A0F000BB41E /* ViewController.h */,
+				1F38ABF41DB80A0F000BB41E /* ViewController.m */,
+				1F38ABF61DB80A0F000BB41E /* Main.storyboard */,
+				1F38ABF91DB80A0F000BB41E /* Assets.xcassets */,
+				1F38ABFB1DB80A0F000BB41E /* LaunchScreen.storyboard */,
+				1F38ABFE1DB80A0F000BB41E /* Info.plist */,
+				1F38ABED1DB80A0F000BB41E /* Supporting Files */,
+			);
+			path = PetStore;
+			sourceTree = "<group>";
+		};
+		1F38ABED1DB80A0F000BB41E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F38ABEE1DB80A0F000BB41E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26D864A60E00F0A32EA74EF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12B868EB84F661097E26537D /* Pods-PetStore.debug.xcconfig */,
+				4554E9496FD859A78C9FD071 /* Pods-PetStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80BB391958C55D000BDC9B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E4D8ABBF8810049938F08E8 /* libPods-PetStore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F38ABE91DB80A0F000BB41E /* PetStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F38AC011DB80A0F000BB41E /* Build configuration list for PBXNativeTarget "PetStore" */;
+			buildPhases = (
+				8C0E38DDE8815A4F2402DF64 /* [CP] Check Pods Manifest.lock */,
+				1F38ABE61DB80A0F000BB41E /* Sources */,
+				1F38ABE71DB80A0F000BB41E /* Frameworks */,
+				1F38ABE81DB80A0F000BB41E /* Resources */,
+				1F38AC081DB80C7B000BB41E /* Embed Frameworks */,
+				F67746F551401E82100D05A5 /* [CP] Embed Pods Frameworks */,
+				822B35510B909CAE420C2BE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetStore;
+			productName = PetStore;
+			productReference = 1F38ABEA1DB80A0F000BB41E /* PetStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F38ABE21DB80A0F000BB41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GeeCode;
+				TargetAttributes = {
+					1F38ABE91DB80A0F000BB41E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7E646DTM59;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F38ABE51DB80A0F000BB41E /* Build configuration list for PBXProject "PetStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F38ABE11DB80A0F000BB41E;
+			productRefGroup = 1F38ABEB1DB80A0F000BB41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F38ABE91DB80A0F000BB41E /* PetStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F38ABE81DB80A0F000BB41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38ABFD1DB80A0F000BB41E /* LaunchScreen.storyboard in Resources */,
+				1F38ABFA1DB80A0F000BB41E /* Assets.xcassets in Resources */,
+				1F38ABF81DB80A0F000BB41E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		822B35510B909CAE420C2BE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetStore/Pods-PetStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0E38DDE8815A4F2402DF64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F67746F551401E82100D05A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetStore/Pods-PetStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F38ABE61DB80A0F000BB41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F38ABF51DB80A0F000BB41E /* ViewController.m in Sources */,
+				1F38ABF21DB80A0F000BB41E /* AppDelegate.m in Sources */,
+				1F38ABEF1DB80A0F000BB41E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F38ABF61DB80A0F000BB41E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F38ABF71DB80A0F000BB41E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F38ABFB1DB80A0F000BB41E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F38ABFC1DB80A0F000BB41E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F38ABFF1DB80A0F000BB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F38AC001DB80A0F000BB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F38AC021DB80A0F000BB41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B868EB84F661097E26537D /* Pods-PetStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7E646DTM59;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PetStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geecode.PetStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F38AC031DB80A0F000BB41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4554E9496FD859A78C9FD071 /* Pods-PetStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7E646DTM59;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PetStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geecode.PetStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F38ABE51DB80A0F000BB41E /* Build configuration list for PBXProject "PetStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38ABFF1DB80A0F000BB41E /* Debug */,
+				1F38AC001DB80A0F000BB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F38AC011DB80A0F000BB41E /* Build configuration list for PBXNativeTarget "PetStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F38AC021DB80A0F000BB41E /* Debug */,
+				1F38AC031DB80A0F000BB41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F38ABE21DB80A0F000BB41E /* Project object */;
+}
